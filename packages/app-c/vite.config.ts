@@ -14,6 +14,9 @@ export default defineConfig({
       exposes: {
         './App': './src/App.tsx',
       },
+      remotes: {
+        'app-b': 'http://localhost:4173/assets/remoteEntry.js',
+      },
       shared: ['react', 'react-dom', 'react-router-dom'],
     }),
   ],

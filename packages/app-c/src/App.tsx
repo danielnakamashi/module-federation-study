@@ -1,11 +1,11 @@
-import './App.css'
 import { Link } from 'react-router-dom'
+import './App.css'
 
 function App() {
   return (
     <>
-      <div>App2</div>
-      <Link to="/app3">App 3</Link>
+      <div>App3</div>
+      <Link to="/app2">App2</Link>
     </>
   )
 }
