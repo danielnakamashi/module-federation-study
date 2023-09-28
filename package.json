@@ -11,18 +11,31 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.22.15",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
-    "@vitejs/plugin-react-swc": "^3.0.0",
+    "@webpack-cli/generators": "^3.0.7",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss": "^8.4.30",
+    "postcss-loader": "^7.3.3",
     "prettier": "^2.8.7",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
     "typescript": "^4.9.3",
-    "vite": "^4.2.0",
-    "vite-plugin-eslint": "^1.8.1"
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

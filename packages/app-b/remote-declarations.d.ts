@@ -1,2 +1,2 @@
-declare module 'appB/AppB'
+declare module 'app-b/App'
 declare module 'app-c/App'

@@ -1,11 +1,12 @@
+import * as React from 'react'
 import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
   return (
     <>
-      <div>App3</div>
-      <Link to="/app2">App2</Link>
+      <h1>App C</h1>
+      <Link to="/app-b">App B</Link>
     </>
   )
 }
